@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Product_View.Product_Detail_View">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar11"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tool_bar_style"
+        android:elevation="4dp"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        app:title="Parle Mart"
+        app:titleMarginTop="10dp"
+        app:titleTextColor="#fff" />
+
+    <ImageView
+        android:id="@+id/p_d_view_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/toolbar11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/p_d_view_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p_d_view_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#E80505"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/p_d_view_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p_d_view_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Price"
+        android:textColor="#E80505"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/p_d_price_list_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p_d_view_price"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#E80505" />
+
+    <TextView
+        android:id="@+id/p_d_view_quantity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p_d_view_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Quantity"
+        android:textColor="#E80505"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/p_d_view_quantity_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p_d_view_quantity2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="20dp"
+        android:background="#E80505" />
+
+
+    <TextView
+        android:id="@+id/p_d_view_Quality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p_d_view_txt"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:text="Quality"
+        android:textColor="#E80505"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Add_product"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:text="Total :"
+        android:textColor="#E80505"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Add_product"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="0"
+        android:textColor="#E80505"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p_d_view_Quality"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="200dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/add_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_add" />
+
+        <TextView
+            android:id="@+id/Count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="0"
+            android:textColor="#E80505"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/sub_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:src="@drawable/ic_round_sub" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Add_product"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_input_file"
+        android:text="Add product"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+
+
+
+</RelativeLayout>

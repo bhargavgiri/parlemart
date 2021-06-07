@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".Product_View.Product_FinalSubmit">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar11"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tool_bar_style"
+        android:elevation="4dp"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        app:title="Parle Mart"
+        app:titleMarginTop="10dp"
+        app:titleTextColor="#fff" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/R_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/final_total"
+        android:layout_below="@id/toolbar11"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/Submit_order"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_input_file"
+        android:text="Submit Summary"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/final_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="100dp"
+        android:text="Total :"
+        android:textColor="#E80505"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ftotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="100dp"
+        android:text="0"
+        android:textColor="#E80505"
+        android:textSize="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Distributor_View.Distributor_View_Oreder_module">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar11"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tool_bar_style"
+        android:elevation="4dp"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        app:title="Parle Mart"
+        app:titleMarginTop="4dp"
+        app:titleTextColor="#fff">
+
+    </androidx.appcompat.widget.Toolbar>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text=" Mahadev Pan"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/toolbar11"
+                android:textColor="#131212"
+                android:id="@+id/shopename"
+                android:textSize="50dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Rambhai"
+                android:id="@+id/ownwrname"
+                android:layout_below="@id/shopename"
+                android:textColor="#131212"
+                android:textSize="40dp"
+                />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:text="8140951905"
+             android:id="@+id/contectno"
+             android:layout_below="@id/ownwrname"
+             android:textColor="#131212"
+             android:textSize="30dp"
+             />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Your Order"
+        android:layout_below="@id/contectno"
+        android:textColor="#131212"
+        android:id="@+id/order"
+        android:textSize="40dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/order"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product"
+            android:textSize="25dp"
+            android:textColor="#131212"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quality"
+            android:layout_marginLeft="70dp"
+            android:textSize="25dp"
+            android:textColor="#131212"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="25dp"
+            android:layout_marginLeft="80dp"
+            android:textColor="#131212"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="#ffff"
+        android:id="@+id/O_submit1"
+        android:background="@drawable/custom_input_file"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/O_submit1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total :-"
+            android:textSize="25dp"
+            android:textColor="#131212"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1300"
+            android:textSize="25dp"
+            android:textColor="#131212"
+            android:id="@+id/total_amount"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        android:icon="@drawable/search_one"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:id="@+id/S_view"
+
+        />
+    
+    <item android:id="@+id/addproduct"
+        android:title="Add Product"
+        />
+
+    <item android:title="Distributor Diatils"
+        android:id="@+id/D_list"/>
+
+<item android:id="@+id/logout"
+    android:title="LogOut" />
+
+</menu>

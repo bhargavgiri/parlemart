@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "740509466086",
+    "project_id": "parlemart-52150",
+    "storage_bucket": "parlemart-52150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740509466086:android:41de2b46082d7e295f6a27",
+        "android_client_info": {
+          "package_name": "com.example.parlemart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740509466086-dcah8pf8v96tua4sbm0l85ctnlo19aje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU3qoJ4y3_GRgwCYiWNWv3-ZLMFDZ-LHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740509466086-dcah8pf8v96tua4sbm0l85ctnlo19aje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

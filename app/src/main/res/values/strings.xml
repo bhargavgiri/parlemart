@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ParleMart</string>
+    <string name="invalid_name">Please Enter valid Name</string>
+    <string name="invalid_Owner_name">Please Enter Valid Owner Name</string>
+    <string name="invalid_Shope_Address">Please Enter Valid Shope Address</string>
+    <string name="invalid_Contact">Please Enter Valid Contact No</string>
+    <string name="invalid_password">Please Enter Valid Password</string>
+    <string name="invalid_Confirme_password">Confirme Password not match</string>
+    <string name="invalid_Email">Please Enter Valid Email</string>
+    <string name="invalid_email">Please Enter Valid Email</string>
+    <string name="invalid_GST">Enter GST NO</string>
+    <string name="invalid_City">Enter City Name</string>
+    <string name="invalid_Pincord">Enter Pincord</string>
+    <string name="notification_channel_id">default</string>
+</resources>
